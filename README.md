@@ -1,4 +1,4 @@
-# Lista-01---praTi
+# Lista01-maisPraTi
 Lista 1 do curso Full Stack +praTi
 
 ## Pré-requisitos
