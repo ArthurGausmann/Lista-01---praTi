@@ -1,3 +1,4 @@
+// Fornece a tabuada de qualquer valor inserido
 const prompt = require('prompt-sync')()
 
 

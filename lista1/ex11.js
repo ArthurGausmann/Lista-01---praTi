@@ -1,5 +1,7 @@
+// Recebe 5 valores, e fornece a soma deles
 const prompt = require('prompt-sync')()
 
+console.log('Forneça 5 números para receber a soma desses valores')
 
 let sum = 0
 

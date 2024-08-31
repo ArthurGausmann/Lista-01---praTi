@@ -1,6 +1,8 @@
 const prompt = require('prompt-sync')()
 
 
+console.log('Calculadora de fatorial, escreva um valor e receba seu fatorial')
+
 let fact = Number(prompt('Qual o número: '))
 mult = fact
 let num = 1
@@ -11,4 +13,4 @@ while(i <= mult){
     mult--
 }
 
-console.log(num)
+console.log(`${fact}! = ${num}`)

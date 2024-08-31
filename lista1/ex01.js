@@ -1,6 +1,8 @@
+// Verifique se um número é par ou ímpar
+
 const prompt = require('prompt-sync')()
 
-
+console.log('Verifique se um valor é par ou ímpar')
 let num = Number(prompt('Insira um valor: '))
 
 let rest = num % 2

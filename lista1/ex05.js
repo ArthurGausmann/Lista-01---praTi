@@ -1,10 +1,13 @@
+// Calculadora de IMC (Índice de Massa Comporal)
 const prompt = require('prompt-sync')()
 
+console.log('Calculadora de IMC')
 
 let weight = Number(prompt('Informe seu peso (em kg): '))
 let height = Number(prompt('Informe sua altura (em m): '))
 
-let imc = (weight / (height ** 2))
+let calc = (weight / (height ** 2))
+let imc = calc.toFixed(2)
 
 if(imc < 0){
     console.log('Valores inseridos inválidos')

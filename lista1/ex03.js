@@ -1,5 +1,7 @@
+// Recebe uma nota e informa o status escolar
 const prompt = require('prompt-sync')()
 
+console.log('Verifique se você está reprovado, de recuperação ou aprovado')
 
 let grade = Number(prompt('Insira uma nota entre 0 e 10: '))
 

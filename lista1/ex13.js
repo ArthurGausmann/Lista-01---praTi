@@ -1,3 +1,4 @@
+// Recebe números decimais e fornece a média assim que solicitado
 const prompt = require('prompt-sync')()
 
 
@@ -12,6 +13,7 @@ while(num != 0){
     counter++
 }
 
-avg = sum / counter
+calc = sum / counter
+avg = calc.toFixed(2)
 
 console.log(`A média dos valores fornecidos é ${avg}`)

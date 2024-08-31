@@ -1,3 +1,5 @@
+console.log('Este programa fornece os 10 primeiros valores da sequência de Fibonacci')
+
 let num = 1
 let numProx = 1
 

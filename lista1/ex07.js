@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')()
 
+console.log('Verificador de preços')
 
 let apple = Number(prompt('Quantas maçãs deseja comprar: '))
 
