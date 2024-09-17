@@ -9,4 +9,4 @@ Lista 1 do curso Full Stack +praTi
   
   Navegue até o diretório do projeto: cd Lista01-maisPraTi
   
-  Instale as dependências: npm install
+  Instale as dependências: npm install prompt-sync
